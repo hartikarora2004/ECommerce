@@ -1,24 +1,40 @@
-.auth__form{
+/* login.css */
+
+.auth__form {
     background: var(--primary-color);
     padding: 40px;
     border-radius: 5px;
 }
 
-.auth__btn{
+.google__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #fff;
-    color: var(--primary-color);
+    color: #000;
     font-weight: 600;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
 }
 
-.auth p{
-    
+.google__btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
-.auth__btn p a{
+.google__btn:hover {
+    background: #f0f0f0;
+}
+
+.auth p {
+
+}
+
+.auth__form input[type='file'] {
     color: #fff;
-}
-
-.auth__form input[type='file']{
-    color: '#fff';
     cursor: pointer;
 }
